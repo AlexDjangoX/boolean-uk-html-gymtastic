@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  color: rgb(75, 109, 180);
+  padding: 1rem 0 0 2rem;
+}
+
+/* header */
+
+.main-header {
+  background-color: rgb(75, 109, 180);
+}
+
+.main-header__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.main-header .main-header__list li {
+  color: aliceblue;
+  padding: 2rem 1rem;
+}
+
+.main-header .main-header__list li:first-child h1 {
+  font-size: 2rem;
+}
+
+/* main content */
+
+.main-content__paragraph-one,
+.main-content__paragraph-two {
+  font-weight: 500;
+}
+
+.main-content__paragraph-one {
+  line-height: 2rem;
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.main-content__paragraph-two {
+  line-height: 2rem;
+  padding: 0 2rem 1rem 2rem;
+}
+
+.percent-saving {
+  color: rgb(75, 109, 180);
+  font-weight: 600;
+}
+
+/* membership button */
+
+.membership-button {
+  padding: 0 2rem 0rem 2rem;
+}
+
+.membership-button button {
+  background-color: #fff;
+  border: 3px solid rgb(255, 157, 0);
+  border-radius: 0.9rem;
+  color: rgb(255, 157, 0);
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+/* follow us heading */
+
+.follow-us__heading {
+  padding-top: 1rem;
+}
+
+/* social media buttons */
+
+.follow-us-buttons {
+  padding: 1rem 0 0rem 0rem;
+}
+
+.follow-us-buttons__list {
+  display: flex;
+
+  list-style: none;
+  padding: 0;
+}
+
+.follow-us-buttons__list li {
+  margin: 0 2rem;
+}
+
+.follow-us-buttons__list button {
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 0.9rem;
+  color: rgb(255, 255, 255);
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.follow-us-buttons__list .follow-us-buttons__list-instagram {
+  background-color: rgba(106, 93, 226, 0.637);
+}
+.follow-us-buttons__list .follow-us-buttons__list-facebook {
+  background-color: rgba(42, 60, 216, 0.698);
+}
+.follow-us-buttons__list .follow-us-buttons__list-youtube {
+  background-color: rgba(226, 57, 35, 0.774);
+}
+
+/* testimonials */
+
+.testimonials p {
+  display: inline-flex;
+
+  align-items: center;
+  padding-left: 2rem;
+  line-height: 1.4rem;
+  color: rgb(39, 83, 179);
+}
+
+.testimonials p img {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+/* footer */
+
+.features {
+  background-color: rgb(75, 109, 180);
+  padding: 2rem;
+  color: #fff;
+}
+
+.features__heading {
+  font-weight: 200;
+}
+
+.features-list,
+ul {
+  list-style: none;
+}
+
+.features__unordered-list {
+  margin-block-start: 1rem;
+  padding-inline-start: 0;
+}
+
+ul {
+  font-weight: 600;
+}
+
+.features__unordered-list ul:nth-child(1) {
+  font-weight: 300;
+}
